@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}
+Home
+{% endblock %}
+
+
+
+
+{% block pageContent %}
+Home Page!
+
+
+<div class="card" style="width: 18rem;">
+  <img src="{% static 'images/us1.png'%}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Meet my girlfriend!</h5>
+    <p class="card-text">Vidya is a kundi... the biggest kundi there is in the world.... olan kuttan kuttan olan</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+{% endblock %}
