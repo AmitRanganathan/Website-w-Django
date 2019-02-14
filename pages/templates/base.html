@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -9,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <!-- if .html file does not have a block title, it will say hello world in the tab name -->
-    <title>{% block title %}Hello, world!{% endblock %}</title>
+    <title>{% block title %}Amit Ranganathan Website{% endblock %}</title>
   </head>
   <body>
     <!-- NAVBAR CONTENT -->
@@ -26,7 +27,15 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'about' %}">About</a>
+          <a class="nav-link" href="{% url 'about' %}">About Me</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'contact' %}">Contact Me </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'projects' %}">Projects</a>
         </li>
       </ul>
     </div>
