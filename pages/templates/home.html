@@ -6,12 +6,16 @@
 Home
 {% endblock %}
 
-
-
+{% block banner %}
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <center><h1 class="display-4">Welcome!</h1></center>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+{% endblock %}
 
 {% block pageContent %}
-Home Page!
-
 
 <div class="card" style="width: 18rem;">
   <img src="{% static 'images/us1.png'%}" class="card-img-top" alt="...">
