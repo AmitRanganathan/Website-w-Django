@@ -1,4 +1,5 @@
 <!doctype html>
+{% load static %}
 
 <html lang="en">
   <head>
@@ -37,6 +38,27 @@
         <li class="nav-item">
           <a class="nav-link" href="{% url 'projects' %}">Projects</a>
         </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/amitranganathan/">
+            <img src = "{% static 'images/Linkedin.png' %}" width="40" height="40"/>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/amit.ranganathan">
+            <img src = "{% static 'images/Facebook.png' %}" width="40" height="40"/>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com/amitranganathan/">
+            <img src = "{% static 'images/Instagram.png' %}" width="40" height="40"/>
+          </a>
+        </li>
+
       </ul>
     </div>
   </nav>
